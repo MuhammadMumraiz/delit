@@ -74,10 +74,9 @@ io.on("connection", (socket) => {
 
   socket.on("ChatMsg",(message)=>{
     console.log(message)
-    socket.emit("reciMsg",message)
+    socket.emit("reciMsg",message )
   })
 
-  
 
 });
 
