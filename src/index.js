@@ -53,8 +53,8 @@ const app = express();
 const path = require('path');
 const server = require('http').createServer(app);
 
-// const port = process.env.PORT || 5000;
-const port =  5000;
+const port = process.env.PORT || 5000;
+
 
 
 const io = require("socket.io")(server, {
